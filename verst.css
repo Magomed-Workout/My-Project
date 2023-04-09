@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./img/vertka.jpg)no-repeat;
+    background-size: 1920px 1080px;
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site {
+    background: url(./img/watch.png)no-repeat;
+    background-size: 130px 220px;
+    background-position: center;
+    font-size: 70px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 13%;
+    right: 77%;
+    box-shadow: 0 5px 100px #ccc;
+    height: 180px;
+    line-height: 180px;
+    color: chartreuse;
+    transition: color 0.3s linear;
+    padding: 1px 60px;
+}
+
+h1:hover {
+    color: red;
+}
+
+.site1 {
+    background: url(./img/restoran.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 70px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 13%;
+    right: 53%;
+    box-shadow: 0 5px 100px #ccc;
+    height: 180px;
+    line-height: 180px;
+    color: chartreuse;
+    transition: color 0.3s linear;
+    padding: 1px 60px;
+}
+
+.site2 {
+    background: url(./img/cow.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 70px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 13%;
+    right: 31%;
+    box-shadow: 0 5px 100px #ccc;
+    height: 180px;
+    line-height: 180px;
+    color: chartreuse;
+    transition: color 0.3s linear;
+    padding: 1px 60px;
+}
+
+.site3 {
+    background: url(./img/ladybug.png)no-repeat;
+    background-size: 230px 190px;
+    background-position: center;
+    font-size: 70px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 13%;
+    right: 8%;
+    box-shadow: 0 5px 100px #ccc;
+    height: 180px;
+    line-height: 180px;
+    color: chartreuse;
+    transition: color 0.3s linear;
+    padding: 1px 60px;
+}
+
+@media screen and (max-width: 1600px) {
+    
+    body {
+        background-size: cover;
+        background-position: 0px -70px;
+    }
+    .site {
+        font-size: 50px;
+        bottom: 0%;
+        height: 160px;
+        line-height: 160px;
+    }
+    .site1 {
+        font-size: 50px;
+        bottom: 0%;
+        height: 160px;
+        line-height: 160px;
+    }
+    .site2 {
+        font-size: 50px;
+        bottom: 0%;
+        height: 160px;
+        line-height: 160px;
+    }
+    .site3 {
+        font-size: 50px;
+        bottom: 0%;
+        height: 160px;
+        line-height: 160px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        background-size: cover;
+    }
+    .site {
+        font-size: 55px;
+        bottom: 5%;
+    }
+    .site1 {
+        font-size: 55px;
+        bottom: 5%;
+    }
+    .site2 {
+        font-size: 55px;
+        bottom: 5%;
+    }
+    .site3 {
+        font-size: 55px;
+        bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    body {
+        background-size: cover;
+    }
+    .site {
+        font-size: 45px;
+        bottom: 1%;
+        height: 130px;
+        line-height: 130px;
+    }
+    .site1 {
+        font-size: 45px;
+        bottom: 1%;
+        height: 130px;
+        line-height: 130px;
+    }
+    .site2 {
+        font-size: 45px;
+        bottom: 1%;
+        height: 130px;
+        line-height: 130px;
+    }
+    .site3 {
+        font-size: 45px;
+        bottom: 1%;
+        height: 130px;
+        line-height: 130px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-size: cover;
+    }
+    .site {
+        font-size: 33px;
+        bottom: 18%;
+        right: 75%;
+    }
+    .site1 {
+        font-size: 33px;
+        bottom: 18%;
+        right: 51%;
+    }
+    .site2 {
+        font-size: 33px;
+        bottom: 18%;
+        right: 27%;
+    }
+    .site3 {
+        font-size: 33px;
+        bottom: 18%;
+        right: 3%;
+    }
+}
